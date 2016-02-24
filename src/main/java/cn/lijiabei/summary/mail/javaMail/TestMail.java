@@ -12,7 +12,7 @@ public class TestMail {
 		mailInfo.setMailServerPort("25");
 		mailInfo.setValidate(true);
 		mailInfo.setUserName("ljbhs22@yeah.net");
-		mailInfo.setPassword("ljb1990/1116");// 您的邮箱密码
+		mailInfo.setPassword("ljb19901116");// 您的邮箱密码
 		mailInfo.setFromAddress("ljbhs22@yeah.net");
 		mailInfo.setToAddress("lijiabei@bizpartner.cn");
 		mailInfo.setSubject("来自网易的邮件");

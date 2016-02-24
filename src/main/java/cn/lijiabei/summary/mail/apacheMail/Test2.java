@@ -16,7 +16,7 @@ public class Test2 {
 			MultiPartEmail email = new MultiPartEmail();
 			email.setHostName("smtp.yeah.net");
 			email.setSmtpPort(25);
-			email.setAuthentication("ljbhs22@yeah.net", "ljb1990/1116");// 邮件服务器验证：用户名/密码
+			email.setAuthentication("ljbhs22@yeah.net", "ljb19901116");// 邮件服务器验证：用户名/密码
 			email.setSSLOnConnect(true);
 			email.setCharset("UTF-8");// 必须放在前面，否则乱码
 			email.addTo("lijiabei@bizpartner.cn");
